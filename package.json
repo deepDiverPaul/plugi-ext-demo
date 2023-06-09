@@ -1,5 +1,5 @@
 {
-  "name": "phpagebuilder",
+  "name": "plugi-ext-demo",
   "type": "module",
   "scripts": {
     "build": "tsc && node build.js",

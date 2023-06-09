@@ -1,6 +1,6 @@
 <?php
 
-use PHPageBuilder\Repositories\UploadRepository;
+use Plugi\Repositories\UploadRepository;
 
 $filesRepository = new UploadRepository;
 $files = $filesRepository->getAll();

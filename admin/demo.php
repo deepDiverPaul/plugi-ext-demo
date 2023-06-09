@@ -4,7 +4,7 @@
 
 <div class="">
     <?php
-    foreach (\PHPageBuilder\Extensions::getSettings('demo') as $setting):
+    foreach (\Plugi\Extensions::getSettings('demo') as $setting):
         ?>
         <?php
         if ($setting['type'] === 'text'):

@@ -1,6 +1,6 @@
 <?php
 
-use PHPageBuilder\Extensions;
+use Plugi\Extensions;
 
 Extensions::addBlocks([
     basename(__DIR__) . '-foo-navbar' => __DIR__ . '/blocks/hello-world'
@@ -15,5 +15,6 @@ Extensions::addRoutes([
 Extensions::registerBackend('demo', [
     'title' => 'Demo',
     'include' => __DIR__ . '/admin/demo.php',
+    'icon' => '<i class="ph ph-table"></i>',
 ]);
 Extensions::registerAsset('/extensions/demo/dist/admin.css', 'style', 'admin-header');
