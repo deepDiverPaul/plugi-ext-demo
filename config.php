@@ -2,12 +2,14 @@
 
 return [
     'title' => 'Demo Extension',
+    'identifier' => 'demo',
     'author' => 'Paul Spenke',
     'licence' => 'MIT',
     'version' => '1.0.0',
     'settings' => [
         [
             'name' => 'foo',
+            'label' => 'foo',
             'default' =>  'bar',
             'type' => 'text',
         ],
