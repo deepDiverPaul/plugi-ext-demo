@@ -19,5 +19,17 @@ return [
             'default' =>  'true',
             'type' => 'toggle',
         ]
+    ],
+    'assets' => [
+        [
+            'src' => '/dist/admin.css',
+            'type' => 'style',
+            'location' => 'admin-header'
+        ],
+        [
+            'src' => '/dist/public.css',
+            'type' => 'style',
+            'location' => 'header'
+        ]
     ]
 ];
