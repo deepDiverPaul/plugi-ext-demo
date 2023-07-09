@@ -2,6 +2,8 @@
     <?= phpb_e('Success!') ?>
 </div>
 
+<div class=""><?= phpb_trans('demo.title') ?></div>
+
 <div class="">
     <?php
     foreach (\Plugi\Extensions::getSettings('demo') as $setting):
